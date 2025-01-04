@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>890</width>
+    <height>763</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>40</y>
+      <width>421</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Patient Record Management</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>170</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Patient ID</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="searchButton">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>160</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Search</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="patientTable">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>851</width>
+      <height>491</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>160</y>
+      <width>431</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>890</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="actionBack"/>
+    <addaction name="actionDashboard"/>
+    <addaction name="actionNew_Record"/>
+    <addaction name="actionDelete"/>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSearch">
+   <property name="icon">
+    <iconset>
+     <normaloff>fugue-icons-3.5.6/icons/magnifier.png</normaloff>fugue-icons-3.5.6/icons/magnifier.png</iconset>
+   </property>
+   <property name="text">
+    <string>Search</string>
+   </property>
+  </action>
+  <action name="actionBack">
+   <property name="icon">
+    <iconset>
+     <normaloff>fugue-icons-3.5.6/icons/arrow-curve-180-left.png</normaloff>fugue-icons-3.5.6/icons/arrow-curve-180-left.png</iconset>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </action>
+  <action name="actionNew_Record">
+   <property name="icon">
+    <iconset>
+     <normaloff>fugue-icons-3.5.6/icons/blue-document--plus.png</normaloff>fugue-icons-3.5.6/icons/blue-document--plus.png</iconset>
+   </property>
+   <property name="text">
+    <string>New Record</string>
+   </property>
+  </action>
+  <action name="actionDelete">
+   <property name="icon">
+    <iconset>
+     <normaloff>fugue-icons-3.5.6/icons/table-delete-row.png</normaloff>fugue-icons-3.5.6/icons/table-delete-row.png</iconset>
+   </property>
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </action>
+  <action name="actionDashboard">
+   <property name="icon">
+    <iconset>
+     <normaloff>fugue-icons-3.5.6/icons/clipboard-sign-out.png</normaloff>fugue-icons-3.5.6/icons/clipboard-sign-out.png</iconset>
+   </property>
+   <property name="text">
+    <string>Dashboard</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
