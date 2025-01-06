@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1645</width>
-    <height>888</height>
+    <width>891</width>
+    <height>757</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <widget class="QPushButton" name="newRegister">
     <property name="geometry">
      <rect>
-      <x>620</x>
-      <y>230</y>
+      <x>240</x>
+      <y>290</y>
       <width>161</width>
       <height>81</height>
      </rect>
@@ -36,8 +36,8 @@
    <widget class="QPushButton" name="viewPatientList">
     <property name="geometry">
      <rect>
-      <x>880</x>
-      <y>230</y>
+      <x>490</x>
+      <y>290</y>
       <width>161</width>
       <height>81</height>
      </rect>
@@ -55,9 +55,9 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>610</x>
-      <y>60</y>
-      <width>551</width>
+      <x>210</x>
+      <y>140</y>
+      <width>481</width>
       <height>81</height>
      </rect>
     </property>
@@ -72,22 +72,12 @@
     </property>
    </widget>
   </widget>
-  <!-- <widget class="QTableWidget" name="AppointmentSchedule">
-    <property name="geometry">
-     <rect>
-      <x>630</x>
-      <y>260</y>
-      <width>800</width>
-      <height>500</height>
-     </rect>
-    </property>
-  </widget> -->
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1645</width>
+     <width>891</width>
      <height>21</height>
     </rect>
    </property>
@@ -96,6 +86,7 @@
      <string>Menu</string>
     </property>
     <addaction name="actionBack"/>
+    <addaction name="actionDashboard"/>
    </widget>
    <addaction name="menuMenu"/>
   </widget>
@@ -107,6 +98,15 @@
    </property>
    <property name="text">
     <string>Back</string>
+   </property>
+  </action>
+  <action name="actionDashboard">
+   <property name="icon">
+    <iconset>
+     <normaloff>fugue-icons-3.5.6/icons/clipboard-sign-out.png</normaloff>fugue-icons-3.5.6/icons/clipboard-sign-out.png</iconset>
+   </property>
+   <property name="text">
+    <string>Dashboard</string>
    </property>
   </action>
  </widget>

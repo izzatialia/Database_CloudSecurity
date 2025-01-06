@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1646</width>
-    <height>905</height>
+    <width>890</width>
+    <height>756</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,7 +17,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>680</x>
+      <x>270</x>
       <y>20</y>
       <width>351</width>
       <height>131</height>
@@ -38,7 +38,7 @@
    <widget class="QLabel" name="label_1">
     <property name="geometry">
      <rect>
-      <x>580</x>
+      <x>120</x>
       <y>160</y>
       <width>121</width>
       <height>16</height>
@@ -57,7 +57,7 @@
    <widget class="QLineEdit" name="lineEdit_1">
     <property name="geometry">
      <rect>
-      <x>710</x>
+      <x>260</x>
       <y>160</y>
       <width>391</width>
       <height>21</height>
@@ -73,9 +73,9 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>580</x>
+      <x>120</x>
       <y>200</y>
-      <width>91</width>
+      <width>101</width>
       <height>16</height>
      </rect>
     </property>
@@ -92,7 +92,7 @@
    <widget class="QLineEdit" name="lineEdit_2">
     <property name="geometry">
      <rect>
-      <x>710</x>
+      <x>260</x>
       <y>200</y>
       <width>391</width>
       <height>21</height>
@@ -108,7 +108,7 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>580</x>
+      <x>120</x>
       <y>280</y>
       <width>111</width>
       <height>16</height>
@@ -127,9 +127,9 @@
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>580</x>
+      <x>120</x>
       <y>320</y>
-      <width>91</width>
+      <width>111</width>
       <height>16</height>
      </rect>
     </property>
@@ -146,7 +146,7 @@
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>580</x>
+      <x>120</x>
       <y>360</y>
       <width>91</width>
       <height>16</height>
@@ -162,64 +162,10 @@
      <string>E-mail</string>
     </property>
    </widget>
-   <!-- <widget class="QLabel" name="label_9">
-    <property name="geometry">
-     <rect>
-      <x>580</x>
-      <y>480</y>
-      <width>91</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Times New Roman</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>E-mail</string>
-    </property>
-   </widget> -->
-   <!-- <widget class="QLabel" name="label_10">
-    <property name="geometry">
-     <rect>
-      <x>580</x>
-      <y>520</y>
-      <width>121</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Times New Roman</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Address</string>
-    </property>
-   </widget> -->
-   <widget class="QLineEdit" name="lineEdit_4">
-    <property name="geometry">
-     <rect>
-      <x>710</x>
-      <y>280</y>
-      <width>121</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Times New Roman</family>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
-   </widget>
    <widget class="QLineEdit" name="lineEdit_5">
     <property name="geometry">
      <rect>
-      <x>710</x>
+      <x>260</x>
       <y>320</y>
       <width>181</width>
       <height>21</height>
@@ -235,7 +181,7 @@
    <widget class="QLineEdit" name="lineEdit_6">
     <property name="geometry">
      <rect>
-      <x>710</x>
+      <x>260</x>
       <y>360</y>
       <width>391</width>
       <height>21</height>
@@ -248,42 +194,10 @@
      </font>
     </property>
    </widget>
-   <!-- <widget class="QLineEdit" name="lineEdit_9">
-    <property name="geometry">
-     <rect>
-      <x>710</x>
-      <y>480</y>
-      <width>391</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Times New Roman</family>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
-   </widget> -->
-   <!-- <widget class="QLineEdit" name="lineEdit_10">
-    <property name="geometry">
-     <rect>
-      <x>710</x>
-      <y>520</y>
-      <width>391</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Times New Roman</family>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
-   </widget> -->
    <widget class="QLineEdit" name="lineEdit_7">
     <property name="geometry">
      <rect>
-      <x>710</x>
+      <x>260</x>
       <y>400</y>
       <width>391</width>
       <height>21</height>
@@ -299,8 +213,8 @@
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>580</x>
-      <y>400</y>
+      <x>120</x>
+      <y>410</y>
       <width>91</width>
       <height>16</height>
      </rect>
@@ -315,46 +229,11 @@
      <string>Address</string>
     </property>
    </widget>
-   <!-- <widget class="QLineEdit" name="lineEdit_8">
-    <property name="geometry">
-     <rect>
-      <x>710</x>
-      <y>440</y>
-      <width>121</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Times New Roman</family>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
-   </widget> -->
-   <!-- <widget class="QLabel" name="label_8">
-    <property name="geometry">
-     <rect>
-      <x>580</x>
-      <y>440</y>
-      <width>91</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Times New Roman</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Postcode</string>
-    </property>
-   </widget> -->
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>1080</x>
-      <y>560</y>
+      <x>580</x>
+      <y>460</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -372,9 +251,9 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>580</x>
+      <x>120</x>
       <y>240</y>
-      <width>91</width>
+      <width>101</width>
       <height>16</height>
      </rect>
     </property>
@@ -388,13 +267,51 @@
      <string>Date Of Birth</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_3">
+   <widget class="QRadioButton" name="MaleButton">
     <property name="geometry">
      <rect>
-      <x>710</x>
+      <x>260</x>
+      <y>280</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Male</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="FemaleButton">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>280</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Female</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateEdit">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
       <y>240</y>
-      <width>121</width>
-      <height>21</height>
+      <width>110</width>
+      <height>22</height>
      </rect>
     </property>
     <property name="font">
@@ -410,7 +327,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1646</width>
+     <width>890</width>
      <height>21</height>
     </rect>
    </property>
@@ -419,7 +336,6 @@
      <string>Menu</string>
     </property>
     <addaction name="actionBack"/>
-    <addaction name="actionSave"/>
    </widget>
    <addaction name="menuMenu"/>
   </widget>
