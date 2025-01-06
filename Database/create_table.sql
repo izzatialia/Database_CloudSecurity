@@ -6,7 +6,7 @@ CREATE TABLE Users (
     user_role VARCHAR(20) NOT NULL, 
     user_email VARCHAR(100),
     phone_number VARCHAR(15),
-    CHECK (user_role IN ('Administrators', 'Doctor', 'BillingStaff', 'Pharmacist'))
+    CHECK (user_role IN ('admin', 'doctor', 'billingStaff', 'pharmacist'))
 );
 
 CREATE TABLE Patients (

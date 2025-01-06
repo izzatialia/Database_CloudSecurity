@@ -383,3 +383,9 @@ INSERT INTO Prescription (prescription_id, patient_id, doctor_id, medicine_name,
 	('PresID39', 'PID18', 'HID5', 'Tenofovir Disoproxil Fumarate', '10g', '1 month', 'PharmID6', 'PHID7', '21/10/2024'),
 	('PresID40', 'PID50', 'HID6', 'Probiotics', '5g', '3 days', 'PharmID6', 'PHID7', '26/9/2024'),
 	('PresID41', 'PID8', 'HID3', 'Bisphosphonates', '5g', '1 month', 'PharmID6', 'PHID7', '16/12/2024');
+
+
+INSERT INTO Users (user_id, full_name, user_name, password_hash, user_role, user_email, phone_number)
+VALUES ('TestID', 'Izzati Alia', 'Izzati', 'Pa$$w0rd', 'Administrators', 'izzati@gmail.com', '0123456789');
+
+Select * from Users;
